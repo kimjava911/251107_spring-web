@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //@Component
-@Repository
+//@Repository // -> SupabaseRepo로 교체를 위해 비활성화
 public class InMemoryFoodRepository implements FoodRepository {
     private final List<Food> foods = new ArrayList<>();
 
